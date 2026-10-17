@@ -55,6 +55,28 @@ OpenClaw 的配置是层层嵌套的 JSON，没法靠肉眼看出谁调度谁。
 
 技术栈：HTML5 Canvas 2D · 原生 JavaScript · 零框架零构建
 
+### [snapmark](https://github.com/huwanidea/snapmark) · SnapMark 闪记
+
+日程提醒、彩色便签、番茄专注、习惯追踪装在一个应用里。纯前端 + IndexedDB，数据不出本地。
+
+- 公历农历月历，逾期提醒集中标红
+- 彩色便签支持checkbox 列表、置顶、瀑布流与列表双布局
+- SVG 圆环番茄钟与正计时，可绑定目标
+- 应用锁定与中英双语切换
+
+技术栈：React 19 · TypeScript · IndexedDB · @dnd-kit · i18next
+
+### [prd-visualizer](https://github.com/huwanidea/prd-visualizer) · 结构镜
+
+复杂项目的 PRD 可视化工作台：把同一份项目数据同时呈现为分层全景图、自由流程画布和结构化 PRD。
+
+- 业务阶段 → 用户任务 → 业务流程 → 产品功能 → 页面/交互 → 验收标准的分层全景
+- 基于 React Flow 的拖拽、缩放、连线与minimap
+- PRD 直接编辑并写回统一项目模型
+- 内置供应链协同平台等三个示例项目
+
+技术栈：React 19 · React Flow · Vite · Node测试（4 项通过）
+
 ### [huan-resume](https://github.com/huwanidea/huan-resume) · 在线简历
 
 单文件网页简历，HR 拿到链接直接能开，不需要注册、不会解析失败。
